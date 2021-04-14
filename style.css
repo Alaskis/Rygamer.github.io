@@ -1,7 +1,63 @@
 /*body*/
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+/*header*/
+
+header {
+    background-color: black;
+    background-size: 100%;
+    width: 1550px;
+    left: -25px;
+    padding: 20px;
+    height: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    position: relative;
+    padding: 0;
+    top: -18px;
+}
+
+/*nav*/
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.link-header {
+    font-size: 25px;
+}
+
+.about-header {
+    font-size: 25px;
+}
+
+/*section*/
+
+/*body*/
+
+body {
+    background-color: white;
     overflow: hidden;
     font-family: sans-serif;
 }
@@ -70,6 +126,14 @@ nav li {
 .bnt-section:hover {
     background-color: lightgray;
     cursor: pointer;
+}
+
+.work-in-progress {
+    position: relative;
+    left: 1010px;
+    top: -5px;
+    width: 470px;
+    height: 300px;
 }
 
 /*footer*/
